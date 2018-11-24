@@ -342,12 +342,12 @@ section#contact li {
                     margin-top: -0.5em;
                 }
                 p {
-                    font-size: 2em;
-                    margin-left: 3em;
-                    margin-right: 3em;
+                    font-size: 1.5em;
+                    margin-left: 5em;
+                    margin-right: 5em;
                 }
                 a {
-                    font-size: 2.2em;
+                    font-size: 2em;
                 }
                 li {
                     margin-top: 0.5em;
@@ -379,36 +379,42 @@ section#contact li {
                 section#contact h1 {
                     font-size: 4em;
                 }
+                img {
+                    max-height: 80em;
+                }
             }
 
             /* Large Devices, Wide Screens */
             @media only screen and (min-width: 1200px) {
                 h1 {
-                    font-size: 9em;
+                    font-size: 7em;
                     margin-bottom: 1em;
                     margin-top: -1.4em;
                 }
                 h2 {
                     margin-left: 1em;
-                    width: 20em;
-                    font-size: 6em;
+                    width: 30em;
+                    font-size: 3em;
                 }
                 p {
-                    font-size: 3em;
-                    margin-left: 4em;
+                    font-size: 2em;
+                    margin-left: 7em;
                     margin-right: 4em;
                 }
                 a {
-                    font-size: 3em;
+                    font-size: 2em;
                 }
                 li {
-                    margin-top: 2em;
-                    margin-bottom: 2em;
-                    margin-left: em;
+                    margin-top: 1em;
+                    margin-bottom: 1em;
+                    margin-left: 1em;
                     margin-right: 1em;
                 }
                 section#contact li {
                     margin-top: 1em;
                     margin-bottom: 1em;
+                }
+                img {
+                    max-height: 80em;
                 }
             }
